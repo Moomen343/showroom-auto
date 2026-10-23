@@ -177,7 +177,7 @@ autoList: Auto[] = [
     }
   ];
 
-  searchTerm: string = 'b';
+  searchTerm: string = '';
   selectedAuto: Auto | null = null;
 
   onSearchChange(term: string): void {
