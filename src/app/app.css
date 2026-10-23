@@ -1,0 +1,84 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding: 0 35px;
+  margin-bottom: 25px;
+}
+
+.card {
+  width: 295px;
+  background-color: #ffffff;
+  border: 1.5px solid #727272;
+  border-radius: 18px;
+  box-shadow: 6px 7px 11px rgba(50, 50, 50, 0.42);
+  padding: 16px 20px 18px 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 135px;
+  object-fit: contain;
+  margin: 4px 0 16px 0;
+}
+
+.card h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 14px 0;
+}
+
+.card p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.95rem;
+  color: #000000;
+  margin: 0 0 4px 0;
+  line-height: 1.35;
+}
+
+.card a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.95rem;
+  color: #69297b;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  padding: 0 35px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.description h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.description p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.98rem;
+  line-height: 1.35;
+  color: #000000;
+  margin: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 38px;
+  background-color: #0e8a38;
+  margin-top: 25px;
+}

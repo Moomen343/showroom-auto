@@ -1,0 +1,15 @@
+.header {
+  padding: 22px 10px;
+  text-align: center;
+  color: #c98fa3;
+  background-color: rgb(74, 68, 68);
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}

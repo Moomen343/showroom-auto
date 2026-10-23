@@ -1,0 +1,38 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #1a1a1a;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 4px 14px;
+  margin: 25px 0 25px 35px;
+  width: 205px;
+}
+
+label {
+  color: #c22775;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+}
+
+fa-icon {
+  color: #000000;
+  font-size: 14px;
+  margin-left: 6px;
+  cursor: pointer;
+}
